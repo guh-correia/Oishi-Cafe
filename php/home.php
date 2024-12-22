@@ -36,8 +36,7 @@
                     <a class="see-more" href="about.php">See more
                     </a>
                 </div>
-                <video autoplay muted loop>
-                    <source src="https://youtu.be/mvLeCSqwTwo" type="video/mp4" alt="cafe video">
+                <img class="home-background" src="/ativ-som/assets/pexels-fotios-photos-1833399.jpg" alt="coffee shop background image">
             </div>
         </main>
     </body>
