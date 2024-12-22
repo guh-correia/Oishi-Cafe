@@ -41,7 +41,7 @@ body {
 }
 
 .cadaster-card {
-    height: 90%;
+    height: 80%;
     width: 50%;
     border-radius: 30px;
     display: flex;
@@ -51,21 +51,21 @@ body {
 }
 
 #login-cadastro {
-    padding: 20px 10px;
+    padding: 20px 10px 0px;
 }
 
 .input-form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     width: 200px;
 }
 
 .input-form label {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .input-form input {
