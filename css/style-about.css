@@ -1,0 +1,200 @@
+#about {
+    padding: 18px 36px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    width: 40%;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    font-weight: 500;
+}
+
+.who-we-are:hover {
+    box-shadow: 16px 17px 22px -13px rgba(0,0,0,0.27);
+}
+
+.who-we-are h3 {
+    font-size: 1.5em;
+    padding-bottom: 12px;
+}
+
+.who-we-are p {
+    padding-bottom: 15px;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-top: #424242 solid 1px;
+}
+
+.call-to-action a{
+    width: 30%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #000000;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action a:hover {
+    box-shadow: 2px 2px 12px -1px #424242;
+}
+
+.call-to-action button{
+    width: 100%;
+    height: 100%;
+}
+
+.call-to-action span {
+    font-size: 15px;
+    color: #424242;
+}
+
+.about-title {
+    border-bottom: #000000 3px solid;
+    margin: 10px 0px 30px 0px;
+    font-size: 2em;
+}
+
+.painel {
+    width: 50%;
+}
+
+.painel img {
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 30px -6px #f1ea72;
+}
+
+.nossas-bebidas {
+    width: 90%;
+    text-align: center;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.nossas-bebidas h2 {
+    padding: 10px 0px 30px 0px;
+    font-size: 32px;
+}
+
+.bebida {
+    padding-bottom: 70px;
+    transition: 0.3s;
+    overflow: hidden;
+    height: 380px;
+    width: 240px;
+    border-radius: 16px;
+}
+
+.drink-description {
+    font-size: 14px;
+    padding: 6px;
+}
+
+.bebida:hover {
+    background-color: #000000;
+    height: 475px;
+    color: #ffffff;
+    img {
+        box-shadow: 0px 0px 22px -7px #ffffff;
+    }
+}
+
+.bebida img {
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 22px -7px;
+    height: 300px;
+    width: 200px;
+    /* transition: 0.3s; */
+}
+
+.bebida span {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1060px){
+    .call-to-action {
+        flex-wrap: wrap;
+    }
+
+    .call-to-action span {
+        padding-top: 8px;
+    }
+
+    .call-to-action button{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .content-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .who-we-are {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 42px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .title .see-more {
+        font-size: 14px;
+    }
+
+    .call-to-action {
+        align-items: center;
+    }
+
+    .call-to-action span {
+        font-size: 12px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .call-to-action {
+        justify-content: center;
+    }
+
+    .call-to-action span {
+        padding-top: 10px;
+    }
+}
